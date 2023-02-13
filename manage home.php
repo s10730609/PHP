@@ -1,4 +1,4 @@
-<?php include "manage user.php"?>
+<!-- <?php include "manage user.php"?> -->
 <!DOCTYPE html>
 <html>
 <title>倉庫儲位管理</title>
@@ -15,7 +15,7 @@ body {font-family: "Roboto", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:250px;" id="mySidebar">
   <a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><img src="sungarden.jpg" style="width:80%;"></a>
   <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
-  <a class="w3-bar-item w3-button " href=""><?php echo $u;?></a>
+<!--   <a class="w3-bar-item w3-button " href=""><?php echo $u;?></a> -->
   <a class="w3-bar-item w3-button" href="manage home.php">建立品項</a>
   <a class="w3-bar-item w3-button" href="manage creat.php">進貨</a>
   <a class="w3-bar-item w3-button" href="manage out.php">出貨</a>
